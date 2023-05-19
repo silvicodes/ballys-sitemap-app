@@ -1,13 +1,131 @@
+/* General Styles */
+
 body {
+  font-family: Arial, sans-serif;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 32px;
+  color: #333;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+p {
+  font-size: 16px;
+  color: #555;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Header Styles */
+
+.header {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px; 
+  height: auto; 
+  margin-right: 10px; 
+}
+
+/* Footer Styles */
+
+.footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 14px;
+  color: #777;
+  
+}
+
+/* SearchHome Component Styles */
+
+.search-home {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.search-home input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.search-home button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* SearchResults Component Styles */
+
+.search-results {
+  margin-bottom: 40px;
+}
+
+.search-results h3 {
+  margin-bottom: 10px;
+}
+
+.search-results ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.search-results li {
+  margin-bottom: 10px;
+}
+
+/* RepositoryDetail Component Styles */
+
+.repository-detail {
+  margin-bottom: 40px;
+}
+
+.repository-detail h2 {
+  margin-bottom: 10px;
+}
+
+.repository-detail ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.repository-detail li {
+  margin-bottom: 10px;
 }
