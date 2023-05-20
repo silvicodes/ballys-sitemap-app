@@ -34,9 +34,6 @@ function SearchResults() {
             </Link>
           </h3>
           <p>Full Name: {result.full_name}</p>
-          <p>Description: {result.description}</p>
-          <p>Language: {result.language}</p>
-          {/* Display other relevant information about the repository */}
         </div>
       ))}
     </div>
